@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="199.0" layoutY="29.0" prefHeight="75.0" prefWidth="203.0" text="MAIN MENU" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="drop_tables" layoutX="77.0" layoutY="104.0" mnemonicParsing="false" onAction="#buttonPressed" text="Drop Tables">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="create_tables" layoutX="246.0" layoutY="104.0" mnemonicParsing="false" onAction="#buttonPressed" text="Create Tables">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="populate_tables" layoutX="408.0" layoutY="104.0" mnemonicParsing="false" onAction="#buttonPressed" text="Populate Tables">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="query_tables" layoutX="341.0" layoutY="200.0" mnemonicParsing="false" onAction="#buttonPressed" text="Query Tables">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" cancelButton="true" layoutX="279.0" layoutY="294.0" mnemonicParsing="false" onAction="#buttonPressed" text="Exit">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteEntry" layoutX="153.0" layoutY="200.0" mnemonicParsing="false" onAction="#buttonPressed" text="Delete Entry">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
